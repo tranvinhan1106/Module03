@@ -1,0 +1,17 @@
+CREATE DATABASE manager_student;
+CREATE TABLE student (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    age INT,
+    country VARCHAR(45)
+);
+CREATE TABLE class (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30)
+);
+CREATE TABLE teacher (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    age INT,
+    country VARCHAR(45)
+);
